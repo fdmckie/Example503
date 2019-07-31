@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
+//Create Actor class
 public class Actor {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
